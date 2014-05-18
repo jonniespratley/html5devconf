@@ -27,31 +27,18 @@
             "rotate-z": 90
         }
     },
-    {
-        "uri": "why-yeoman.html",
-        "id": "why-yeoman",
-        "class": "step",
-        "data": {
-            "x": 6000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
-        }
-    },
+
     {
         "uri": "step-3.html",
         "id": "step-3",
         "class": "step",
         "data": {
             "x": 9000,
-            "y": 0,
+            "y": 100,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
-            "rotate-y": 0,
+            "rotate-y": 30,
             "rotate-z": 90
         }
     },

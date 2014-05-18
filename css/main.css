@@ -7,7 +7,9 @@
  * When a step is shown (selected) its element gets the class of "active" and 
  * the body element gets the class `impress-on-ID` where ID is the step's id.
  */
-
+.center{
+	text-align: center;
+}
 .notes {
     display:none;
 }
@@ -23,10 +25,14 @@
  *
  * ;)
  */
+.step {
+	height: 500px;
+	width: 960px;
+	display: block;
 
+}
 .slide {
     display: block;
-
     width: 900px;
     height: 700px;
 
@@ -62,12 +68,16 @@
     white-space: nowrap;
 }
 
+#impress{
+    top:35% important;
+}
 
 .footer {
     border-top: 1px solid #eee;
-    margin-top: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    font-size:90%;
+    padding-top:5px;
+    margin-top:10px;
+    color:#999;
 }
 /* Main marketing message and sign up button */
 .jumbotron {
@@ -130,6 +140,8 @@
         border-left: 1px solid #fff;
         border-right: 1px solid #d5d5d5;
     }
+
+
     .nav-justified > li:first-child > a {
         border-left: 0;
         border-radius: 5px 0 0 5px;
