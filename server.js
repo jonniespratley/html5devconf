@@ -4,8 +4,8 @@ var logfmt = require("logfmt");
 var app = express();
 
 app.use(logfmt.requestLogger());
-app.use(express.static(__dirname + '/dist'));
-app.use('/', express.directory('/dist'));
+app.use(express.static(__dirname + '/'));
+
 app.get('/', function(req, res) {
 
 });
